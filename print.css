@@ -1,0 +1,134 @@
+
+/* jg_print.css */
+
+/* Show URL */
+a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+a[href^="http://"] {color:#000;}
+
+/*not display navigation and footer*/
+
+#navigation{display:none;}
+#footer{display:none;}
+
+
+/**************** Body, Container, and tag styles ****************/
+
+*{margin:0; padding:0;}
+
+body{
+font: 76% serif;
+line-height:1.4em;
+text-align:left;
+color:#303030;
+background:#F0F0F0;
+}
+
+#container{
+width:760px;
+margin:15px auto;
+padding:1px 0;
+text-align:left;
+background:#ffffff;
+color:#303030;
+border:0px solid #a0a0a0;
+}
+
+a{
+color: black;
+font-weight:bold;
+text-decoration:none;
+background-color:inherit;
+}
+
+a:hover{color:#CC0000; text-decoration:none; background-color:inherit;}
+a img{border:none;}
+
+/**************** Header styles ****************/
+
+#header{
+height:110px;
+width:760px;
+margin-bottom: 1px;
+background:#0B3D92;
+color:#ffffff;
+margin-left:20px;
+}
+
+#header ul{
+list-style-type: none;
+padding:30px 0 0 10px;
+color:#ffffff;
+}
+
+#header .name{
+font-weight:bold;
+}
+
+
+/**************** content styles ****************/
+#content{
+width:700px;
+min-height:350px;
+padding: 10px 0px 10px 30px;
+text-align:left;
+background:white;
+color:#303030;
+border:0px solid #a0a0a0;
+}
+
+#content h2{
+display:block;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size:1.4em;
+color:#505050;
+font-weight:bold;
+}
+
+#content .experience{
+list-style-type:none;
+margin-bottom: 10px;
+}
+
+#content .experience li{
+list-style-type:none;
+}
+
+#content .experience .date{
+float:left;
+}
+
+#content .experience .school,
+#content .experience .employer
+{
+margin-left: 150px; 
+margin-bottom: 3px;
+}
+
+#content .experience .degree,
+#content .experience .position
+{
+margin-left: 150px;
+margin-bottom: 2px;
+}
+
+#content .publications
+{
+margin-left: 15px;
+margin-bottom: 5px;
+}
+
+#content .publications li
+{
+margin-bottom: 5px;
+}
+
+#content img{
+margin-top: 15px;
+margin-left: 5px;
+}
+
+
+
+
